@@ -1,0 +1,745 @@
+Script started on Mon 16 Nov 2015 10:43:51 PM CST
+]0;z1749863@hopper: ~/580/Assign6/Z1749863_A6_dirz1749863@hopper:~/580/Assign6/Z1749863_A6_dir$ make
+make: Nothing to be done for 'all'.
+]0;z1749863@hopper: ~/580/Assign6/Z1749863_A6_dirz1749863@hopper:~/580/Assign6/Z1749863_A6_dir$ ./Assin[Kgnn[K6 data6.txt
+Paging for a process begins
+The algorithm chosen for the process is FIFO
+The number of pages: 7
+The size of frame stack: 3
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		6 		
+Page :5
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+5 		0 		6 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+5 		1 		6 		
+Page :6
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+5 		1 		6 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+5 		1 		4 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+5 		1 		4 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+2 		1 		4 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+2 		0 		4 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+2 		0 		3 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+2 		0 		3 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+4 		0 		3 		
+End of process
+In 18 Steps,we had 13 Page faults
+
+Paging for a process begins
+The algorithm choen is Least-Replacement
+The number of pages: 7
+The size of frame stack: 3
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page Fault: No
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page Fault: No
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		6 		
+Page :5
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		5 		6 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		5 		6 		
+Page Fault: No
+Page :6
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		5 		6 		
+Page Fault: No
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		4 		6 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		4 		6 		
+Page Fault: No
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		4 		2 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+3 		0 		2 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+3 		0 		2 		
+Page Fault: No
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+3 		0 		4 		
+End of process
+In 18 Steps,we had 12 Page faults
+
+Paging for a process begins
+The algorithm chosen for the process is FIFO
+The number of pages: 7
+The size of frame stack: 4
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		-1 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		3 		2 		1 		
+Page :5
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		2 		1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		2 		1 		
+Page :6
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		2 		1 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		4 		1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		4 		1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+6 		5 		4 		2 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		5 		4 		2 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		4 		2 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		4 		2 		
+Page :4
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		4 		2 		
+End of process
+In 18 Steps,we had 10 Page faults
+
+Paging for a process begins
+The algorithm choen is Least-Replacement
+The number of pages: 7
+The size of frame stack: 4
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		-1 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page Fault: No
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page Fault: No
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		3 		2 		1 		
+Page Fault: No
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		6 		2 		1 		
+Page :5
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		6 		5 		1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		6 		5 		1 		
+Page Fault: No
+Page :6
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+0 		6 		5 		1 		
+Page Fault: No
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+4 		6 		5 		1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+4 		6 		5 		1 		
+Page Fault: No
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+4 		6 		2 		1 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+4 		0 		2 		1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+3 		0 		2 		1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+3 		0 		2 		1 		
+Page Fault: No
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	
+3 		0 		2 		4 		
+End of process
+In 18 Steps,we had 11 Page faults
+
+Paging for a process begins
+The algorithm chosen for the process is FIFO
+The number of pages: 9
+The size of frame stack: 6
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		-1 		-1 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		-1 		-1 		-1 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		-1 		-1 		-1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		-1 		-1 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		-1 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		-1 		-1 		
+Page :7
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		6 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+4 		3 		1 		2 		7 		6 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+4 		3 		1 		2 		7 		6 		
+Page :8
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+4 		8 		1 		2 		7 		6 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+4 		8 		0 		2 		7 		6 		
+Page :8
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+4 		8 		0 		2 		7 		6 		
+End of process
+In 16 Steps,we had 9 Page faults
+
+Paging for a process begins
+The algorithm choen is Least-Replacement
+The number of pages: 9
+The size of frame stack: 6
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		-1 		-1 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		-1 		-1 		-1 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		-1 		-1 		-1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		-1 		-1 		-1 		
+Page Fault: No
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		-1 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		-1 		-1 		
+Page Fault: No
+Page :7
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page Fault: No
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page Fault: No
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		-1 		
+Page Fault: No
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		2 		7 		6 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		4 		7 		6 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		4 		7 		6 		
+Page Fault: No
+Page :8
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		4 		8 		6 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		4 		8 		6 		
+Page Fault: No
+Page :8
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	Frame[5]	
+0 		3 		1 		4 		8 		6 		
+Page Fault: No
+End of process
+In 16 Steps,we had 8 Page faults
+
+Paging for a process begins
+The algorithm chosen for the process is FIFO
+The number of pages: 9
+The size of frame stack: 5
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		-1 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		-1 		-1 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		-1 		-1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		-1 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		-1 		
+Page :7
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		3 		1 		2 		7 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		1 		2 		7 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		1 		2 		7 		
+Page :8
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		8 		2 		7 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		8 		0 		7 		
+Page :8
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		8 		0 		7 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+6 		4 		8 		0 		1 		
+End of process
+In 17 Steps,we had 10 Page faults
+
+Paging for a process begins
+The algorithm choen is Least-Replacement
+The number of pages: 9
+The size of frame stack: 5
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		-1 		-1 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		-1 		-1 		-1 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		-1 		-1 		
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		-1 		-1 		
+Page Fault: No
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		-1 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		-1 		
+Page Fault: No
+Page :7
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page Fault: No
+Page :0
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page Fault: No
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		2 		7 		
+Page Fault: No
+Page :6
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		6 		7 		
+Page :4
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		6 		4 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+0 		3 		1 		6 		4 		
+Page Fault: No
+Page :8
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+8 		3 		1 		6 		4 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+8 		0 		1 		6 		4 		
+Page :8
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	Frame[3]	Frame[4]	
+8 		0 		1 		6 		4 		
+Page Fault: No
+End of process
+In 16 Steps,we had 9 Page faults
+
+Paging for a process begins
+The algorithm chosen for the process is FIFO
+The number of pages: 4
+The size of frame stack: 3
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		2 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		3 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		0 		3 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+2 		0 		3 		
+End of process
+In 11 Steps,we had 7 Page faults
+
+Paging for a process begins
+The algorithm choen is Least-Replacement
+The number of pages: 4
+The size of frame stack: 3
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		-1 		-1 		
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		-1 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page :3
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+0 		3 		2 		
+Page Fault: No
+Page :1
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		2 		
+Page :0
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		3 		0 		
+Page :2
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		2 		0 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		2 		0 		
+Page Fault: No
+Page :3
+Page Fault: Yes
+Frame[0]	Frame[1]	Frame[2]	
+1 		2 		3 		
+Page :1
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		2 		3 		
+Page Fault: No
+Page :2
+Page Fault: No
+Frame[0]	Frame[1]	Frame[2]	
+1 		2 		3 		
+Page Fault: No
+End of process
+In 11 Steps,we had 7 Page faults
+
+]0;z1749863@hopper: ~/580/Assign6/Z1749863_A6_dirz1749863@hopper:~/580/Assign6/Z1749863_A6_dir$ exit
+
+Script done on Mon 16 Nov 2015 10:44:07 PM CST
